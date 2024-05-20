@@ -1,0 +1,17 @@
+{
+  "name": "taxmun",
+  "version": "1.0.0",
+  "description": "당백전의 2024년 1학기 작업물 입니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "fund": false
+}
