@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vanilla JavaScript Project</title>
+    <title>Vanilla JavaScript SPA</title>
+    <link rel="stylesheet" href="src/styles/styles.css">
 </head>
 <body>
-    <h1>Hello, Vanilla JavaScript!</h1>
-    <script src="src/index.js"></script>
+    <nav>
+        <ul>
+            <li><a href="#/" id="home-link">Home</a></li>
+            <li><a href="#/about" id="about-link">About</a></li>
+            <li><a href="#/contact" id="contact-link">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="app"></div>
+    <script type="module" src="src/app.js"></script>
 </body>
 </html>
