@@ -3,12 +3,13 @@
   --transitionDuration: 0.4s;
 }
 
-/* Reset Default Settings */
-* {
-  box-sizing: border-box;
-  margin: 0;
+.warp {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  padding: 2em; /* Flexbox 컨테이너에 패딩을 추가 */
 }
-
 
 .card {
   width: 270px;

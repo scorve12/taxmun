@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0; /* 마진 제거 */
+    padding: 0; /* 필요하다면 패딩도 제거 */
+}
+
 body {
     font-family: 'Helvetica Neue', sans-serif;
     margin: 0; /* 마진 제거 */
