@@ -1,6 +1,7 @@
 export default async function about() {
     return `
     <div class='warp'>
+        <!--맴버 카드-->
         <div class='card'>
             <img src='https://raw.githubusercontent.com/mohammadjarabah681/codepen-assets/main/pens/PoKWKGe/images/img.jpg' class='card__img'>
             <div class='card__content'>

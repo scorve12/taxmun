@@ -11,6 +11,8 @@
   padding: 2em; /* Flexbox 컨테이너에 패딩을 추가 */
 }
 
+
+/* 멤버 카드*/
 .card {
   width: 270px;
   height: calc(350px + 78px / 2);
