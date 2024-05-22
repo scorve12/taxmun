@@ -89,8 +89,38 @@ export default function home() {
             </div>
         </div>
 
-        <div>
-        sdafsa
+        <div = "container">
+            <div class="button-grid">
+                <a href="#" class="button-item">
+                    <i class="fas fa-cog button-icon"></i>
+                    <div class="button-content">
+                        <div class="button-title">금융상식</div>
+                        <div class="button-description">Configure your preferences</div>
+                    </div>
+                </a>
+                <a href="#" class="button-item">
+                    <i class="fas fa-user button-icon"></i>
+                    <div class="button-content">
+                        <div class="button-title">종합소득세 계산</div>
+                        <div class="button-description">View and edit your profile</div>
+                    </div>
+                </a>
+                <a href="#" class="button-item">
+                    <i class="fas fa-user button-icon"></i>
+                    <div class="button-content">
+                        <div class="button-title">이야기 마당</div>
+                        <div class="button-description">View and edit your profile</div>
+                    </div>
+                </a>
+                <a href="#" class="button-item">
+                    <i class="fas fa-user button-icon"></i>
+                    <div class="button-content">
+                        <div class="button-title">로그인</div>
+                        <div class="button-description">View and edit your profile</div>
+                    </div>
+                </a>
+            
+            </div>
         </div>
     </div>
     
