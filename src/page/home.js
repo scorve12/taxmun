@@ -119,6 +119,42 @@ export default function home() {
                         <div class="button-description">View and edit your profile</div>
                     </div>
                 </a>
+                <a href="#" class="button-item">
+                    <i class="fas fa-user button-icon"></i>
+                    <div class="button-content">
+                        <div class="button-title">로그인</div>
+                        <div class="button-description">View and edit your profile</div>
+                    </div>
+                </a>
+                <a href="#" class="button-item">
+                    <i class="fas fa-user button-icon"></i>
+                    <div class="button-content">
+                        <div class="button-title">로그인</div>
+                        <div class="button-description">View and edit your profile</div>
+                    </div>
+                </a>
+                <a href="#" class="button-item">
+                    <i class="fas fa-user button-icon"></i>
+                    <div class="button-content">
+                        <div class="button-title">로그인</div>
+                        <div class="button-description">View and edit your profile</div>
+                    </div>
+                </a>
+                <a href="#" class="button-item">
+                    <i class="fas fa-user button-icon"></i>
+                    <div class="button-content">
+                        <div class="button-title">로그인</div>
+                        <div class="button-description">View and edit your profile</div>
+                    </div>
+                </a>
+                <a href="#" class="button-item">
+                    <i class="fas fa-user button-icon"></i>
+                    <div class="button-content">
+                        <div class="button-title">로그인</div>
+                        <div class="button-description">View and edit your profile</div>
+                    </div>
+                </a>
+                
             
             </div>
         </div>

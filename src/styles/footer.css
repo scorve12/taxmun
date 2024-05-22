@@ -1,0 +1,12 @@
+#footerWrap footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0; /* 위 아래 패딩만 지정 */
+    height: 80px; /* 높이를 80px로 고정 */
+    overflow: auto; /* 내용이 넘칠 경우 스크롤바를 표시 */
+}
+
+.team-info p {
+    margin: 5px 0; /* 간격을 줄여 전체 높이에 맞도록 조정 */
+}
