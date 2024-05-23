@@ -6,7 +6,7 @@ export default function renderNav() {
           <nav id="gnbWrap">
             <ul class="gnb">
               <li>
-                <a href="#/">마당</a>
+                <a href="#/">첫 화면</a>
                 <div class="sub-wrap">
                   <ul>
                     <li><a href="">sub-menu1</a></li>
@@ -28,7 +28,7 @@ export default function renderNav() {
                 </div>
                </li>
                <li>
-                <a href="#/contact">menu3</a>
+                <a href="#/contact">기록</a>
                 <div class="sub-wrap">
                   <ul>
                     <li><a href="">sub-menu1</a></li>
