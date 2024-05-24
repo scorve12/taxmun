@@ -108,6 +108,27 @@ export default function home() {
                 <a href="#" class="button-item">
                     <i class="fas fa-user button-icon"></i>
                     <div class="button-content">
+                        <div class="button-title">접속 / 가입</div>
+                        <div class="button-description">View and edit your profile</div>
+                    </div>
+                </a>
+                <a href="#" class="button-item">
+                    <i class="fas fa-user button-icon"></i>
+                    <div class="button-content">
+                        <div class="button-title">독서관</div>
+                        <div class="button-description">View and edit your profile</div>
+                    </div>
+                </a>
+                <a href="#" class="button-item">
+                    <i class="fas fa-user button-icon"></i>
+                    <div class="button-content">
+                        <div class="button-title">추천 자료</div>
+                        <div class="button-description">View and edit your profile</div>
+                    </div>
+                </a>
+                <a href="#" class="button-item">
+                    <i class="fas fa-user button-icon"></i>
+                    <div class="button-content">
                         <div class="button-title">이야기 마당</div>
                         <div class="button-description">View and edit your profile</div>
                     </div>
@@ -115,47 +136,24 @@ export default function home() {
                 <a href="#" class="button-item">
                     <i class="fas fa-user button-icon"></i>
                     <div class="button-content">
-                        <div class="button-title">로그인</div>
+                        <div class="button-title">공지사항</div>
                         <div class="button-description">View and edit your profile</div>
                     </div>
                 </a>
                 <a href="#" class="button-item">
                     <i class="fas fa-user button-icon"></i>
                     <div class="button-content">
-                        <div class="button-title">로그인</div>
+                        <div class="button-title"></div>
                         <div class="button-description">View and edit your profile</div>
                     </div>
                 </a>
                 <a href="#" class="button-item">
                     <i class="fas fa-user button-icon"></i>
                     <div class="button-content">
-                        <div class="button-title">로그인</div>
+                        <div class="button-title"></div>
                         <div class="button-description">View and edit your profile</div>
                     </div>
                 </a>
-                <a href="#" class="button-item">
-                    <i class="fas fa-user button-icon"></i>
-                    <div class="button-content">
-                        <div class="button-title">로그인</div>
-                        <div class="button-description">View and edit your profile</div>
-                    </div>
-                </a>
-                <a href="#" class="button-item">
-                    <i class="fas fa-user button-icon"></i>
-                    <div class="button-content">
-                        <div class="button-title">로그인</div>
-                        <div class="button-description">View and edit your profile</div>
-                    </div>
-                </a>
-                <a href="#" class="button-item">
-                    <i class="fas fa-user button-icon"></i>
-                    <div class="button-content">
-                        <div class="button-title">로그인</div>
-                        <div class="button-description">View and edit your profile</div>
-                    </div>
-                </a>
-                
-            
             </div>
         </div>
     </div>

@@ -6,35 +6,13 @@ export default function renderNav() {
           <nav id="gnbWrap">
             <ul class="gnb">
               <li>
-                <a href="#/">첫 화면</a>
+                <a href="#/"><b>알림판</b></a>
                 <div class="sub-wrap">
                   <ul>
-                    <li><a href="">sub-menu1</a></li>
-                    <li><a href="">sub-menu2</a></li>
-                    <li><a href="">sub-menu3</a></li>
-                    <li><a href="">sub-menu4</a></li>
-                  </ul>
-                </div>
-               </li>
-               <li>
-                <a href="#/about">팀소개</a>
-                <div class="sub-wrap">
-                  <ul>
-                    <li><a href="">sub-menu1</a></li>
-                    <li><a href="">sub-menu2</a></li>
-                    <li><a href="">sub-menu3</a></li>
-                    <li><a href="">sub-menu4</a></li>
-                  </ul>
-                </div>
-               </li>
-               <li>
-                <a href="#/contact">기록</a>
-                <div class="sub-wrap">
-                  <ul>
-                    <li><a href="">sub-menu1</a></li>
-                    <li><a href="">sub-menu2</a></li>
-                    <li><a href="">sub-menu3</a></li>
-                    <li><a href="">sub-menu4</a></li>
+                    <li> <a href="#/about">팀소개</a></li>
+                    <li><a href="">작업물 소개</a></li>
+                    <li><a href="">이야기 마당</a></li>
+                    <li><a href="">문의사항</a></li>
                   </ul>
                 </div>
                </li>
