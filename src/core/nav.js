@@ -6,15 +6,37 @@ export default function renderNav() {
           <nav id="gnbWrap">
             <ul class="gnb">
               <li>
-                <a href="/"><b>알림판</b></a>
-                <div class="sub-wrap">
-                  <ul>
-                    <li> <a href="/about">팀소개</a></li>
-                    <li><a href="">작업물 소개</a></li>
-                    <li><a href="">이야기 마당</a></li>
-                    <li><a href="">문의사항</a></li>
-                  </ul>
-                </div>
+                <a href="/"><b>원점으로</b></a>
+                  <div class="sub-wrap">
+                    <ul>
+                      <li> <a href="/about">팀소개</a></li>
+                      <li><a href="/contact">작업물 소개</a></li>
+                    </ul>
+                  </div>
+               </li>
+               <li>
+                <a href="/"><b>계산기</b></a>
+                  <div class="sub-wrap">
+                    <ul>
+                      <li> <a href="/synthesis">종합소득세 계산</a></li>
+                      <li><a href="/hourly">시급 계산</a></li>
+                      <li><a href="/retirement">퇴직금 계산</a></li>
+                      <li><a href="/salary">급여 계산</a></li>
+                    </ul>
+                  </div>
+               </li>
+               <li>
+                <a href="/"><b>이야기 마당</b></a>
+                  <div class="sub-wrap">
+                    <ul>
+                      <li> <a href="/communication">자유게시판</a></li>
+                      <li><a href="/notification">공지사항</a></li>
+                      <li><a href="/inquiry">문의 사항</a></li>
+                    </ul>
+                  </div>
+               </li>
+               <li>
+               <a href="/"><b>로그인</b></a>
                </li>
             </ul>
           </nav>
