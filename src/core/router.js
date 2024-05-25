@@ -2,6 +2,7 @@ export default class Router {
     constructor(routes) {
         this.routes = routes;
         this.loadInitialRoute();
+        this.addPopStateListener();
     }
 
     async loadRoute(path) {
@@ -15,11 +16,19 @@ export default class Router {
         }
     }
 
-    loadInitialRoute() {
-        const path = window.location.hash.replace("#", "") || "/";
-        this.loadRoute(path);
-        window.addEventListener("hashchange", () => {
-            this.loadRoute(window.location.hash.replace("#", ""));
+    addPopStateListener() {
+        window.addEventListener("popstate", (event) => {
+            this.loadRoute(window.location.pathname);
         });
+    }
+
+    loadInitialRoute() {
+        const path = window.location.pathname || "/";
+        this.loadRoute(path);
+    }
+
+    navigateTo(path) {
+        window.history.pushState({}, path, window.location.origin + path);
+        this.loadRoute(path);
     }
 }

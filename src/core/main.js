@@ -15,4 +15,12 @@ document.addEventListener("DOMContentLoaded", () => {
     renderNav();
     renderFooter();
     const router = new Router(routes);
+
+    document.querySelectorAll('a').forEach(anchor => {
+        anchor.addEventListener('click', (event) => {
+            event.preventDefault();
+            const path = anchor.getAttribute('href');
+            router.navigateTo(path);
+        });
+    });
 });
