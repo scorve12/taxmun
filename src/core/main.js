@@ -11,6 +11,7 @@ import notification from '../page/notification.js';
 import retirement from '../page/retirement.js';
 import salary from '../page/salary.js';
 import synthesis from '../page/synthesis.js';
+import login from '../page/login.js';
 
 
 const routes = {
@@ -24,6 +25,7 @@ const routes = {
     "/retirement" : retirement,
     "/salary" : salary,
     "/synthesis" : synthesis,
+    "/login" : login
 };
 
 document.addEventListener("DOMContentLoaded", () => {

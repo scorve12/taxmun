@@ -36,7 +36,7 @@ export default function renderNav() {
                   </div>
                </li>
                <li>
-               <a href="/"><b>로그인</b></a>
+               <a href="/login"><b>로그인</b></a>
                </li>
             </ul>
           </nav>
