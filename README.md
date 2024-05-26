@@ -26,3 +26,45 @@ taxmun
       └─ styles.css
 
 ```
+```
+taxmun
+├─ index.html
+├─ package-lock.json
+├─ package.json
+├─ README.md
+└─ src
+   ├─ api
+   │  └─ notification.php
+   ├─ app.js
+   ├─ common
+   ├─ compoent
+   ├─ core
+   │  ├─ footer.js
+   │  ├─ main.js
+   │  ├─ nav.js
+   │  └─ router.js
+   ├─ page
+   │  ├─ about.js
+   │  ├─ calculator.js
+   │  ├─ communication.js
+   │  ├─ contact.js
+   │  ├─ home.js
+   │  ├─ hourly.js
+   │  ├─ inquiry.js
+   │  ├─ login.js
+   │  ├─ notification.js
+   │  ├─ retirement.js
+   │  ├─ salary.js
+   │  ├─ showScroll.js
+   │  ├─ subnav.js
+   │  ├─ synthesis.js
+   │  └─ test.html
+   └─ styles
+      ├─ about.css
+      ├─ default.css
+      ├─ footer.css
+      ├─ hoem.css
+      ├─ nav.css
+      └─ styles.css
+
+```
