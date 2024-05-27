@@ -1,0 +1,32 @@
+#footerWrap footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 5px 10px; 
+    height: auto;
+    min-height: 60px; 
+    font-size: 10px;
+}
+
+.team-info{
+    border-top: 1px solid white;
+    padding: 4px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+
+.contact-info {
+    border-top: 1px solid white;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+
+.team-info p, .contact-info p {
+    margin: 2px 0; 
+}
