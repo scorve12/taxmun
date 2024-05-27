@@ -17,7 +17,7 @@ export default class Router {
     }
 
     addPopStateListener() {
-        window.addEventListener("popstate", (event) => {
+        window.addEventListener("popstate", () => {
             this.loadRoute(window.location.pathname);
         });
     }
